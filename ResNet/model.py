@@ -1,9 +1,6 @@
 import torch
 import torch.nn as nn
 
-import torch
-import torch.nn as nn
-
 
 class CNNBlock(nn.Module):
     def __init__(self, in_channels, out_channels, activation=True, **kwargs):
